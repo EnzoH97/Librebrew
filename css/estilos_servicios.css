@@ -1,0 +1,166 @@
+/* estilos del header */
+
+.contenedor-direcciones{
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+}
+
+.logo{
+    margin-left: 20px;
+    color: antiquewhite
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+}
+
+.redirecciones{
+    text-decoration: none; 
+    color: antiquewhite;
+} 
+/*estilos del main*/
+.contendores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    height: 10%;
+    width: 50%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    margin: 50px;
+}
+
+.card a {
+    text-decoration: none
+}
+
+.content {
+    padding: 1.1rem;
+}
+
+.image {
+    width: 100%;
+    height: 80%;
+}
+.image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.title {
+    color: #090f1b;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.desc {
+    margin-top: 0.5rem;
+    color: #212835;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+/*boton*/
+.action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.action span {
+    transition: .3s ease;
+}
+
+.action:hover span {
+    transform: translateX(4px);
+}
+
+/*estilos footer*/
+.caja-footer{
+    color: antiquewhite;
+    background-color: rgb(15, 15, 15);
+    padding: 40px;
+}
+
+.contenedores_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-footer{
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.caja-contactos{
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    display: flex;
+    margin-right: 20px;
+}
+
+.caja-redes{
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+    margin-right: 10px;
+    display: flex;
+}
+
+.redes{
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 10px ;
+}
+@media (min-width: 320px) and (max-width: 1050px) {
+    .redirecciones{
+        position: relative;
+        right: 70px;
+    }
+}
+@media (min-width: 320px) and (max-width: 1050px) {
+    .card{
+        width: 500px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1050px) {
+    .caja-footer{
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 1050px) {
+    .contenedores_footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

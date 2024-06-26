@@ -1,0 +1,167 @@
+
+/* estilos del header */
+
+.contenedor-direcciones{
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+}
+
+.logo{
+    margin-left: 20px;
+    color: antiquewhite
+}
+
+.logo img{
+    height: 200px;
+    width: 200px;
+}
+.redirecciones{
+    text-decoration: none; 
+    color: antiquewhite;
+} 
+
+/*estilos para el main*/
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*estilos del formulario*/
+form{
+    background-color: rgb(192, 192, 192);
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0.20);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.grupo_input{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h2{
+    color: darkred;
+    font-size: 35px;
+}
+
+label{
+    color: darkred;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(77, 77, 77);
+    color: rgb(17, 17, 17);
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(46, 0, 0);
+}
+
+.boton{
+    font-size: 15px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(49, 49, 49);
+    box-shadow: rgb(41, 41, 41);
+    cursor: pointer;
+    margin: 15px;
+}
+
+.boton:hover{
+    background-color:rgb(46, 0, 0);
+}
+
+
+/*estilos footer*/
+.caja-footer{
+    color: antiquewhite;
+    background-color: rgb(15, 15, 15);
+    padding: 40px;
+}
+
+.contenedores_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-footer{
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.caja-contactos{
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    display: flex;
+    margin-right: 20px;
+}
+
+.caja-redes{
+    width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+    margin-right: 10px;
+    display: flex;
+}
+
+.redes{
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 10px ;
+}
+
+@media (min-width: 320px) and (max-width: 1050px) {
+    .redirecciones{
+        position: relative;
+        right: 70px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 1050px) {
+    form{
+        padding: 50px 30px;
+        width: 600px;
+    }
+    input{
+        padding: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 1050px) {
+    .caja-footer{
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width: 320px) and (max-width: 1050px) {
+    .contenedores_footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
