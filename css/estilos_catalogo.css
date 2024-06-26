@@ -119,10 +119,12 @@
         position: relative;
         right: 70px;
     }
-}
 @media (min-width: 320px) and (max-width: 1050px) {
     .card{
-        width: 500px;
+        width: 300px;
+    }
+    .nav{
+        flex-direction: column;
     }
 }
 
