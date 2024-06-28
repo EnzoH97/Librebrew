@@ -132,16 +132,16 @@
 
     
 .card:hover .card__content {
-    transform: rotateX(0deg);}
-    
+    transform: rotateX(0deg);
+}
 .card__title {
     margin: 0;
     font-size: 24px;
-    color: #fdfcfc;
+    color: #000000;
     font-weight: 700;
 }
 .card__description {
-    margin: 10px 0 0;
+    margin: 5px 0 0;
     font-size: 14px;
     color: #ffffff;
     line-height: 1.4;
@@ -195,6 +195,8 @@
     .redirecciones{
         position: relative;
         right: 70px;
+        font-size: 13px;
+
     }
 }
 
@@ -210,6 +212,10 @@
     }
     .nav{
         flex-direction: column;
+    }
+    .card__title{
+        font-size: small;
+        text-align: justify;
     }
 }
 

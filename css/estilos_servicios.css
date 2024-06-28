@@ -139,6 +139,7 @@
     .redirecciones{
         position: relative;
         right: 70px;
+        font-size: 13px;
     }
 }
 @media (min-width: 320px) and (max-width: 1050px) {
@@ -148,7 +149,7 @@
     .nav{
         flex-direction: column;
     }
-
+}
 @media (min-width: 320px) and (max-width: 1050px) {
     .caja-footer{
         font-size: small;

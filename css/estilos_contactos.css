@@ -136,6 +136,7 @@ input::placeholder, textarea::placeholder{
     .redirecciones{
         position: relative;
         right: 70px;
+        font-size: 13px;
     }
 }
 
@@ -169,3 +170,4 @@ input::placeholder, textarea::placeholder{
     .nav{
         flex-direction: column;
     }
+}

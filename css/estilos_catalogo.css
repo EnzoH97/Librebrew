@@ -118,7 +118,9 @@
     .redirecciones{
         position: relative;
         right: 70px;
+        font-size: 13px;
     }
+}
 @media (min-width: 320px) and (max-width: 1050px) {
     .card{
         width: 300px;
