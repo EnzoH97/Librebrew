@@ -1,6 +1,6 @@
 /*header*/
 .contenedor-direcciones{
-    height: 100px;
+    height: 150px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -13,8 +13,8 @@
     color: antiquewhite
 }
 .logo img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 
 .redirecciones{

@@ -3,7 +3,7 @@
 /* estilos del header */
 
 .contenedor-direcciones{
-    height: 100px;
+    height: 150px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -15,8 +15,8 @@
     color: antiquewhite
 }
 .logo img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 
 .redirecciones{
@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    
 }
 
 .contenedor_txthistoria{
@@ -44,7 +45,7 @@
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #00000071;
+    background-color: #000000d8;
 }
 
 .titulo_his{
@@ -89,7 +90,7 @@
     display: flex;
     align-items: center;
 }
-/*estilos de la cartas del home*/
+/*estilos de las cartas de redireccion*/
 .card {
     position: relative;
     width: 60%;
