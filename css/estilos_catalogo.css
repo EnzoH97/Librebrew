@@ -115,31 +115,21 @@
 }
 
 @media (min-width: 320px) and (max-width: 1050px) {
-    .redirecciones{
-        position: relative;
-        right: 70px;
-        font-size: 13px;
+    .navegacion-footer{
+        display: none;
     }
-}
-@media (min-width: 320px) and (max-width: 1050px) {
     .card{
         width: 300px;
     }
     .nav{
         flex-direction: column;
     }
-}
-
-@media (min-width: 320px) and (max-width: 1050px) {
     .caja-footer{
         font-size: small;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-
     }
-}
-@media (min-width: 320px) and (max-width: 1050px) {
     .contenedores_footer{
         display: flex;
         flex-direction: column;
@@ -147,3 +137,4 @@
         align-items: center;
     }
 }
+

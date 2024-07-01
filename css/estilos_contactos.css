@@ -40,7 +40,7 @@ form{
     box-shadow: 0 0 20px rgb(0, 0, 0.20);
     border-radius: 20px;
     text-align: center;
-    width: 340px;
+    width: 50%;
 }
 .grupo_input{
     display: flex;
@@ -133,40 +133,33 @@ input::placeholder, textarea::placeholder{
 }
 
 @media (min-width: 320px) and (max-width: 1050px) {
-    .redirecciones{
-        position: relative;
-        right: 70px;
-        font-size: 13px;
+    .body{
+        overflow-x: hidden;
+        padding: 30px;
     }
-}
-
-
-@media (min-width: 320px) and (max-width: 1050px) {
+    
     form{
         padding: 50px 30px;
-        width: 600px;
+        width: 80%;
     }
     input{
         padding: 15px;
     }
-}
-@media (min-width: 320px) and (max-width: 1050px) {
+    .navegacion-footer{
+        display: none;
+    }
     .caja-footer{
         font-size: small;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
     }
-}
-@media (min-width: 320px) and (max-width: 1050px) {
     .contenedores_footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
     }
-}
-@media (min-width: 320px) and (max-width: 1050px) {
     .nav{
         flex-direction: column;
     }
