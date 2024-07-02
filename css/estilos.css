@@ -15,8 +15,8 @@
     color: antiquewhite
 }
 .logo img{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 .redirecciones{
@@ -194,13 +194,13 @@
 
 @media (min-width: 320px) and (max-width: 1050px) {
     .contenedor-direcciones{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .nav{
         position: relative;
         right: 35px;
-        flex-direction: column;
         font-size: 12px;
+        
     }
     
     .redirecciones{
@@ -217,9 +217,12 @@
         height: 500px;
     }
     .card{
-        width: 300px;
+        width: 350px;
     }
-
+    .card__content{
+        transform: none;
+        background-color: #000000c0;
+    }
     .card__title{
         font-size: small;
     }
@@ -239,5 +242,17 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .caja-contactos{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        font-size: medium ;
+    }
+
+    .caja-redes{
+        flex-direction: row;
+        justify-content: center;
     }
 }

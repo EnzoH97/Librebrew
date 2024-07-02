@@ -149,20 +149,32 @@ svg {
 }
 
 @media (min-width: 320px) and (max-width: 1050px) {
+    .contenedor-direcciones{
+        overflow-x: hidden;
+    }
     .nav{
         position: relative;
         right: 35px;
-        flex-direction: column;
         font-size: 12px;
+        
     }
     
     .redirecciones{
         position: relative;
-        right: 80px;
+        right: 70px;
+    }
+    
+    .logo img{
+        height: 200px;
+        width: 200px;
     }
     
     .card{
-        width: 300px;
+        width: 200px;
+        height: 300px;
+    }
+    .card-img img{
+        height: 150px;
     }
 
     .navegacion-footer{
@@ -180,6 +192,16 @@ svg {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+    .caja-contactos{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .caja-redes{
+        flex-direction: row;
+        justify-content: center;
     }
 }
 

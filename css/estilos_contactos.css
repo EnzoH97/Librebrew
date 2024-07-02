@@ -137,16 +137,24 @@ input::placeholder, textarea::placeholder{
         padding: 30px;
     }
     
+    .contenedor-direcciones{
+        overflow-x: hidden;
+    }
     .nav{
         position: relative;
         right: 35px;
-        flex-direction: column;
         font-size: 12px;
+        
     }
     
     .redirecciones{
         position: relative;
-        right: 80px;
+        right: 70px;
+    }
+    
+    .logo img{
+        height: 200px;
+        width: 200px;
     }
 
     form{
@@ -172,4 +180,14 @@ input::placeholder, textarea::placeholder{
         align-items: center;
     }
     
+    .caja-contactos{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .caja-redes{
+        flex-direction: row;
+        justify-content: center;
+    }
 }
