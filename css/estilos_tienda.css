@@ -149,15 +149,26 @@ svg {
 }
 
 @media (min-width: 320px) and (max-width: 1050px) {
-    .navegacion-footer{
-        display: none;
+    .nav{
+        position: relative;
+        right: 35px;
+        flex-direction: column;
+        font-size: 12px;
     }
+    
+    .redirecciones{
+        position: relative;
+        right: 80px;
+    }
+    
     .card{
         width: 300px;
     }
-    .nav{
-        flex-direction: column;
+
+    .navegacion-footer{
+        display: none;
     }
+
     .caja-footer{
         font-size: small;
         display: flex;
