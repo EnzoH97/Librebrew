@@ -205,9 +205,14 @@
     
     .redirecciones{
         position: relative;
-        right: 80px;
+        right: 70px;
     }
     
+    .logo img{
+        height: 200px;
+        width: 200px;
+    }
+
     .contenedor_historia{
         height: 500px;
     }
