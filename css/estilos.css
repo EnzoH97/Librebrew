@@ -221,10 +221,14 @@
     }
     .card__content{
         transform: none;
-        background-color: #000000c0;
+        background-color: #00000094;
     }
     .card__title{
         font-size: small;
+    }
+
+    .card__description{
+        margin: 0;
     }
     .caja-footer{
         font-size: small;
