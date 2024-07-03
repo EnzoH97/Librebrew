@@ -116,7 +116,7 @@
 
 @media (min-width: 320px) and (max-width: 1050px) {
     .contenedor-direcciones{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .nav{
         position: relative;
