@@ -1,3 +1,7 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* estilos del header */
 
 .contenedor-direcciones{
@@ -154,14 +158,13 @@ svg {
     }
     .nav{
         position: relative;
-        right: 35px;
-        font-size: 12px;
+        font-size: 13px;
         
     }
     
     .redirecciones{
         position: relative;
-        right: 70px;
+        right: 65px;
     }
     
     .logo img{
