@@ -141,13 +141,14 @@
     }
     .nav{
         position: relative;
+        right: 35px;
         font-size: 13px;
         
     }
     
     .redirecciones{
         position: relative;
-        right: 65px;
+        right: 70px;
     }
     
     .logo img{
