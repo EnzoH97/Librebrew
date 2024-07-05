@@ -121,7 +121,7 @@
     .nav{
         position: relative;
         right: 35px;
-        font-size: 13px;
+        font-size: 12px;
         
     }
     
@@ -129,7 +129,10 @@
         position: relative;
         right: 70px;
     }
-    
+    .logo{
+        position: relative;
+        left: px;
+    }
     .logo img{
         height: 200px;
         width: 200px;

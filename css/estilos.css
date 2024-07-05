@@ -201,14 +201,17 @@
     .nav{
         position: relative;
         right: 35px;
-        font-size: 13px;
+        font-size: 12px;
     }
     
     .redirecciones{
         position: relative;
         right: 70px;
     }
-    
+    .logo{
+        position: relative;
+        left: px;
+    }
     .logo img{
         height: 200px;
         width: 200px;
@@ -225,7 +228,7 @@
         background-color: #00000094;
     }
     .card__title{
-        font-size: medium;
+        font-size: 15px;
     }
 
     .card__description{
