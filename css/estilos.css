@@ -25,6 +25,9 @@
 } 
 
 /*estilos del main*/
+.nosotros{
+    padding: 75px 20px 50px;
+}
 
 .contenedor_historia{
     position: relative;
@@ -34,7 +37,8 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 .contenedor_txthistoria{
@@ -114,7 +118,8 @@
     
 .card:hover {
     /*transform: scale(1.05);*/
-    box-shadow: 0 8px 16px rgb(0, 0, 0);}
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
     
 .card__content {
     align-content: center;
@@ -220,6 +225,13 @@
     .contenedor_historia{
         height: 500px;
     }
+    .titulo_his{
+        font-size: 22px;
+    }
+    .descripcion_his{
+        font-size: 12px;
+    }
+
     .card{
         width: 350px;
     }
