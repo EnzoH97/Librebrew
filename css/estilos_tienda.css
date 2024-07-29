@@ -98,12 +98,9 @@ svg {
 /*Hover*/
 
 .card-button:hover {
-    border: 1px solid #ffc55a;
-    background-color: #ffc55a;
+    border: 1px solid #8eff5a;
+    background-color: #8eff5a;
 }
-
-
-
 /*estilos footer*/
 .caja-footer{
     color: antiquewhite;
