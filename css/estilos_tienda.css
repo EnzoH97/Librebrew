@@ -30,12 +30,11 @@
     justify-content: space-evenly;
     padding: 50px;
 }
-
 .card{
     width: 250px;
     height: 350px;
     padding: .8em;
-    background: #e6e6e6;
+    background-color:rgb(202, 202, 202) !important;
     position: relative;
     overflow: visible;
     margin: 50px;
@@ -71,6 +70,7 @@ svg {
     align-items: center;
     padding-top: 10px;
     border-top: 1px solid #000000;
+    background-color:rgb(202, 202, 202) !important;
 }
 
 /*Text*/

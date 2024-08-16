@@ -32,8 +32,7 @@
 .card {
     width: 300px;
     height: 400px;
-    background-color:rgb(214, 208, 189);
-    padding: .4em;
+    background-color: rgb(216, 216, 216) !important; 
     border-radius: 6px;
     margin: 30px;
     box-shadow: 0 0 20px 5px rgb(0, 0, 0.20);
@@ -59,6 +58,7 @@
     font-weight: 600;
     color: rgb(0, 0, 0);
     padding: 10px 7px 0;
+    background-color: rgb(216, 216, 216);
 }
 
 .category:hover {
@@ -68,6 +68,7 @@
 .heading {
     color: rgb(17, 17, 17);
     padding: 7px;
+    background-color: rgb(216, 216, 216);
 }
 
 /*estilos footer*/
