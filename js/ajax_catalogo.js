@@ -25,7 +25,7 @@ function GetEstilos() {
                     <p><strong>${el.dato1}</strong> ${el.info1}</p>
                     <p><strong>${el.dato2}</strong> ${el.info2} </p>
                 </div>
-            </div>`
+                </div>`
             });
                 } else {
             $lista.innerHTML =`
