@@ -27,18 +27,7 @@ function GetEstilos() {
                 </div>
                 </div>`
             });
-                } else {
-            $lista.innerHTML =`
-                <div class="card">
-                <div class="card-image"> <img src="" alt=""></div>
-                <div class="category">NO se encontraron datos </div>
-                <div class="heading"> 
-                    <p></p>
-                    <p><strong></strong> </p>
-                    <p><strong></strong> </p>
-                </div>
-            </div>`;
-        }
+                } else {}
     });
 
     xhr.open("GET",'../data/datos.json');
