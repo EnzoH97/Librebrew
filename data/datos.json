@@ -59,7 +59,7 @@
         {
             "titulo": "Lata GOLDEN ",
             "descripcion": "Cerveza GOLDEN 473cc x6 U",
-            "precio": "$3500",
+            "precio": "$3000",
             "imagen": "../assets/lata_golden.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -72,7 +72,7 @@
         {
             "titulo": "Lata PORTER",
             "descripcion": "Cerveza PORTER 473cc x6 U ",
-            "precio": "$3500",
+            "precio": "$3400",
             "imagen": "../assets/lata_porter.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -85,7 +85,7 @@
         {
             "titulo": "LATA SCOTTISH",
             "descripcion": "Cerveza SCOTTISH 473cc x6 U",
-            "precio": "$3500",
+            "precio": "$3300",
             "imagen": "../assets/lata_roja.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -111,7 +111,7 @@
         {
             "titulo": "BOTELLON GOLDEN",
             "descripcion": "Cerveza GOLDEN 5L",
-            "precio": "$6000",
+            "precio": "$5500",
             "imagen": "../assets/botellon-g.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -124,7 +124,7 @@
         {
             "titulo": "BOTELLON PORTER",
             "descripcion": "Cerveza PORTER 5",
-            "precio": "$6000",
+            "precio": "$5800",
             "imagen": "../assets/botellon-p.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -137,7 +137,7 @@
         {
             "titulo": "BOTELLON SCOTTISH",
             "descripcion": "Cerveza SCOTTISH 5L",
-            "precio": "$6000",
+            "precio": "$5600",
             "imagen": "../assets/botellon-r.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
