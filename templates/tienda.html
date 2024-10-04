@@ -23,6 +23,22 @@
         </div>
     </header> 
     <main style="background-color:#001111;">
+        <div class="filtro_busqueda" >
+            <select name="" id="categorias">
+                <option value=""></option>
+                <option value="Latas">Latas</option>
+                <option value="Botellas">Botellas</option>
+                <option value="Botellones">Botellones</option>
+            </select>
+
+            <p>desde</p>
+            <input id="desde" type="text">
+
+            <p>hasta</p>
+            <input type="text" name="" id="hasta">
+
+            <button onclick="BuscarProductos()">Buscar</button>
+        </div>
         <div class="contenedor_cards" id="tienda">
             <script src="../js/ajax_tienda.js"></script>
                 <script>

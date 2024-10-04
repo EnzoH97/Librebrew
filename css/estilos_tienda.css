@@ -23,7 +23,35 @@
     color: antiquewhite;
 } 
 /*estilos main*/
+/*filtro*/
 
+.filtro_busqueda{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input, textarea{
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgb(200, 252, 198);
+    border: 2px solid rgb(46, 46, 46);
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(0, 58, 0);
+}
+select{ padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgb(200, 252, 198);
+    border: 2px solid rgb(46, 46, 46);
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+/*cartata con productos*/
 .contenedor_cards{
     display: flex;
     flex-wrap: wrap;
