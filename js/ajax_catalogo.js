@@ -27,7 +27,18 @@ function GetEstilos() {
                 </div>
                 </div>`
             });
-                } else {}
+                } else {
+                    $lista.innerHTML =`
+                    <div class="card">
+                <div class="card-image"> <img src="" alt=""></div>
+                <div class="category">Error no se encuentran datos</div>
+                <div class="heading"> 
+                    <p>${xhr.status}</p>
+                    <p><strong></strong>${xhr.statusText}</p>
+                    <p><strong></strong></p>
+                </div>
+                </div>`
+                }
     });
 
     xhr.open("GET",'../data/datos.json');

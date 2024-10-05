@@ -46,7 +46,7 @@
         {
             "titulo": "Lata IPA",
             "descripcion": "Cerveza IPA 473cc x6u",
-            "precio": "$3500",
+            "precio": "3500",
             "imagen": "../assets/lata_ipa.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -59,7 +59,7 @@
         {
             "titulo": "Lata GOLDEN",
             "descripcion": "Cerveza GOLDEN 473cc x6u",
-            "precio": "$3000",
+            "precio": "3000",
             "imagen": "../assets/lata_golden.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -72,7 +72,7 @@
         {
             "titulo": "Lata PORTER",
             "descripcion": "Cerveza PORTER 473cc x6u",
-            "precio": "$3400",
+            "precio": "3400",
             "imagen": "../assets/lata_porter.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -85,7 +85,7 @@
         {
             "titulo": "Lata SCOTTISH",
             "descripcion": "Cerveza SCOTTISH 473cc x6u",
-            "precio": "$3300",
+            "precio": "3300",
             "imagen": "../assets/lata_roja.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -98,7 +98,7 @@
         {
             "titulo": "Botella IPA",
             "descripcion": "Cerveza IPA 1L x1u",
-            "precio": "$1500",
+            "precio": "1500",
             "imagen": "../assets/botella_ipa.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -111,7 +111,7 @@
         {
             "titulo": "Botella GOLDEN",
             "descripcion": "Cerveza GOLDEN 1L x1u",
-            "precio": "$1200",
+            "precio": "1200",
             "imagen": "../assets/botella_golden.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -124,7 +124,7 @@
         {
             "titulo": "Botella PORTER",
             "descripcion": "Cerveza PORTER 1L x1u",
-            "precio": "$1400",
+            "precio": "1400",
             "imagen": "../assets/botella_negra.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -137,7 +137,7 @@
         {
             "titulo": "Botella SCOTTISH",
             "descripcion": "Cerveza SCOTTISH 1L x1u",
-            "precio": "$1300",
+            "precio": "1300",
             "imagen": "../assets/botella_roja.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -150,7 +150,7 @@
         {
             "titulo": "Botellon IPA",
             "descripcion": "Cerveza IPA 5L x1u",
-            "precio": "$6000",
+            "precio": "6000",
             "imagen": "../assets/botellon-i.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -163,7 +163,7 @@
         {
             "titulo": "Botellon GOLDEN",
             "descripcion": "Cerveza GOLDEN 5L x1u",
-            "precio": "$5500",
+            "precio": "5500",
             "imagen": "../assets/botellon-g.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -176,7 +176,7 @@
         {
             "titulo": "Botellon PORTER",
             "descripcion": "Cerveza PORTER 5 x1u",
-            "precio": "$5800",
+            "precio": "5800",
             "imagen": "../assets/botellon-p.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",
@@ -189,7 +189,7 @@
         {
             "titulo": "Botellon SCOTTISH",
             "descripcion": "Cerveza SCOTTISH 5L x1u",
-            "precio": "$5600",
+            "precio": "5600",
             "imagen": "../assets/botellon-r.jpg",
             "carrito":{
                 "icono": "cart-icon.svg",

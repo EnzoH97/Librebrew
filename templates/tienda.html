@@ -23,27 +23,27 @@
         </div>
     </header> 
     <main style="background-color:#001111;">
-        <div class="filtro_busqueda" >
-            <select name="" id="categorias">
-                <option value=""></option>
-                <option value="Latas">Latas</option>
-                <option value="Botellas">Botellas</option>
-                <option value="Botellones">Botellones</option>
-            </select>
-
-            <p>desde</p>
-            <input id="desde" type="text">
-
-            <p>hasta</p>
-            <input type="text" name="" id="hasta">
-
-            <button onclick="BuscarProductos()">Buscar</button>
-        </div>
-        <div class="contenedor_cards" id="tienda">
-            <script src="../js/ajax_tienda.js"></script>
-                <script>
-                    GetProductos();
-                </script>
+        <div>
+            <div class="filtro_busqueda" >
+                <select name="" id="categorias">
+                    <option value=""></option>
+                    <option value="Latas">Latas</option>
+                    <option value="Botellas">Botellas</option>
+                    <option value="Botellones">Botellones</option>
+                </select>
+    
+                <input id="desde" type="text" name="Desde" placeholder="Desde" style="margin-left: 20px;">
+    
+                <input id="hasta" type="text" name="Hasta" placeholder="Hasta" style="margin-left: 20px;">
+    
+                <button onclick="FiltroProductos()">Buscar</button>
+            </div>
+            <div class="contenedor_cards" id="tienda">
+                <script src="../js/ajax_tienda.js"></script>
+                    <script>
+                        GetProductos();
+                    </script>
+            </div>
         </div>
     </main>
 </body>
