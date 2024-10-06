@@ -18,9 +18,9 @@ function GetEstilos() {
                 $lista.innerHTML +=`
                     <div class="card">
                 <div class="card-image"> <img src="${el.img}" alt=""></div>
-                <div class="category">${el.titulo} </div>
+                <div class="category">${el.encabezado} </div>
                 <div class="heading"> 
-                    <p>${el.descripcion}</p>
+                    <p>${el.reseña}</p>
                     <p><strong>${el.dato1}</strong> ${el.info1}</p>
                     <p><strong>${el.dato2}</strong> ${el.info2} </p>
                 </div>

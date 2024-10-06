@@ -1,42 +1,42 @@
 {
-    "Estilos":[
+        "Estilos":[
+            {
+                "encabezado":"IPA",
+                "reseña": "Nuestra IPA sin gluten es ligera pero con cuerpo, ofrece una textura suave y refrescante, y el lúpulo de alta calidad proporciona un amargor equilibrado, ideal para cualquier ocasión.",
+                "dato1": "Contenido Alcohólico:",
+                "info1": "5.5%",
+                "dato2": "IBU:",
+                "info2": "45",
+                "img": "../assets/jarra-IPA.jpg"
+            },
+            {
+                "encabezado":"Golden",
+                "reseña": "Nuestra Golden es una cerveza suave y dorada, con un sabor equilibrado y una textura agradable. Su delicado aroma y notas sutiles de malta hacen que cada sorbo sea refrescante y perfecto para cualquier ocasión.",
+                "dato1": "Contenido Alcohólico:",
+                "info1": "4%",
+                "dato2": "IBU:",
+                "info2": "20",
+                "img": "../assets/jarra-golden.jpg"
+            },
+            {
+                "encabezado":"Porter",
+                "reseña": "Nuestra Porter es una cerveza oscura y rica, con un sabor profundo. Sus notas café tostado ofrecen una experiencia compleja y reconfortante, ideal para disfrutar en momentos de relajación.",
+                "dato1": "Contenido Alcohólico:",
+                "info1": "4.5%",
+                "dato2": "IBU:",
+                "info2": "30",
+                "img": "../assets/jarra-porter.jpg"
+            },
+            {
+                "encabezado":"Scottish",
+                "reseña": "Nuestra Scottish es una cerveza robusta y de color ámbar , con un sabor maltoso y un toque de caramelo. Sus notas suaves y dulces crean una experiencia cálida y acogedora, perfecta para cualquier ocasión.",
+                "dato1": "Contenido Alcohólico:",
+                "info1": "4.3%",
+                "dato2": "IBU:",
+                "info2": "25",
+                "img": "../assets/jarra-scottish.jpg"
+            }],
 
-        {
-            "titulo":"IPA",
-            "descripcion": "Nuestra IPA sin gluten es ligera pero con cuerpo, ofrece una textura suave y refrescante, y el lúpulo de alta calidad proporciona un amargor equilibrado, ideal para cualquier ocasión.",
-            "dato1": "Contenido Alcohólico:",
-            "info1": "5.5%",
-            "dato2": "IBU:",
-            "info2": "45",
-            "img": "../assets/jarra-IPA.jpg"
-        },
-        {
-            "titulo":"Golden",
-            "descripcion": "Nuestra Golden es una cerveza suave y dorada, con un sabor equilibrado y una textura agradable. Su delicado aroma y notas sutiles de malta hacen que cada sorbo sea refrescante y perfecto para cualquier ocasión.",
-            "dato1": "Contenido Alcohólico:",
-            "info1": "4%",
-            "dato2": "IBU:",
-            "info2": "20",
-            "img": "../assets/jarra-golden.jpg"
-        },
-        {
-            "titulo":"Porter",
-            "descripcion": "Nuestra Porter es una cerveza oscura y rica, con un sabor profundo. Sus notas café tostado ofrecen una experiencia compleja y reconfortante, ideal para disfrutar en momentos de relajación.",
-            "dato1": "Contenido Alcohólico:",
-            "info1": "4.5%",
-            "dato2": "IBU:",
-            "info2": "30",
-            "img": "../assets/jarra-porter.jpg"
-        },
-        {
-            "titulo":"Scottish",
-            "descripcion": "Nuestra Scottish es una cerveza robusta y de color ámbar , con un sabor maltoso y un toque de caramelo. Sus notas suaves y dulces crean una experiencia cálida y acogedora, perfecta para cualquier ocasión.",
-            "dato1": "Contenido Alcohólico:",
-            "info1": "4.3%",
-            "dato2": "IBU:",
-            "info2": "25",
-            "img": "../assets/jarra-scottish.jpg"
-        }],
 
     "Latas":[
         {
@@ -199,3 +199,5 @@
             }
         }]
 }
+
+
