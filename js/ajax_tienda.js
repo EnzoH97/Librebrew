@@ -11,52 +11,52 @@ function GetProductos() {
             
             
             let json = JSON.parse(xhr.responseText);
-            //
-            let Articulos = json.Productos;
-            console.log(Articulos);
 
-            Articulos.forEach((el) => {
-                $lista.innerHTML +=`
-                <div class="card">
-                <div class="card-img"><img src=${el.imagen} alt=""></div>
-                <div class="card-info">
-                    <p class="text-title">${el.titulo} </p>
-                    <p class="text-body">${el.descripcion}</p>
-                </div>
-                <div class="card-footer">
-                    <span class="text-title">${el.precio}</span>
-                    <div class="card-button">
-                        <svg class="svg-icon" viewBox="0 0 20 20">
-                            ${el.carrito}
-                        </svg>
-                    </div>
-                </div>        
-            </div>`
-            });
-                } else {
+            for (var p in json) {
+                json[p].forEach((el) => {
                     $lista.innerHTML +=`
                     <div class="card">
-                    <div class="card-img"><img src= alt=""></div>
+                    <div class="card-img"><img src=${el.imagen} alt=""></div>
                     <div class="card-info">
-                        <p class="text-title">No se encuentran datos</p>
-                        <p class="text-body">${xhr.status}</p>
+                        <p class="text-title">${el.titulo} </p>
+                        <p class="text-body">${el.descripcion}</p>
                     </div>
                     <div class="card-footer">
-                        <span class="text-title">${xhr.statusText}</span>
+                        <span class="text-title">${el.precio}</span>
                         <div class="card-button">
                             <svg class="svg-icon" viewBox="0 0 20 20">
-                                
+                                ${el.carrito}
                             </svg>
                         </div>
                     </div>        
-                </div>`}
+                </div>`;
+                });
+            }
+
+            } else {
+                $lista.innerHTML +=`
+                <div class="card">
+                <div class="card-img"><img src= alt=""></div>
+                <div class="card-info">
+                    <p class="text-title">No se encuentran datos</p>
+                    <p class="text-body">${xhr.status}</p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-title">${xhr.statusText}</span>
+                    <div class="card-button">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+                                
+                        </svg>
+                    </div>
+                </div>        
+            </div>`}
                 
     });
 
     xhr.open("GET",'../data/datos.json');
-
     xhr.send();
 }
+
 function FiltroProductos() {
     var desde = parseInt(document.getElementById('desde').value);
     var hasta = parseInt(document.getElementById('hasta').value);
@@ -85,11 +85,10 @@ function FiltroProductos() {
             $lista.innerHTML = ``;
 
             if (cat == "") { 
+
                 for (const p in json) {
-                    $lista.innerHTML += `
-                    <h1>${p}</h1>`;
                     json[p].forEach((el) => {
-                        if (desde <= el.precio && hasta >= el.precio) {
+                        if (desde <= el.precio || hasta >= el.precio) {
                             console.log(el.precio)
                             $lista.innerHTML +=`
                             <div class="card">
@@ -113,8 +112,6 @@ function FiltroProductos() {
                 }
 
             } else {
-                $lista.innerHTML += `
-                <h1>${cat}</h1>`;
                 json[cat].forEach((el) => {
                     if (desde <= el.precio || hasta >= el.precio) {
                         console.log(el.precio)

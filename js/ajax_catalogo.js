@@ -11,7 +11,6 @@ function GetEstilos() {
             
             
             let json = JSON.parse(xhr.responseText);
-            //
             let estilo = json.Estilos;
             console.log(estilo);
 
