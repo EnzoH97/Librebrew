@@ -40,7 +40,7 @@ function GetEstilos() {
                 }
     });
 
-    xhr.open("GET",'../data/datos.json');
+    xhr.open("GET",'../data/datos_catalogo.json');
 
     xhr.send();
 }
