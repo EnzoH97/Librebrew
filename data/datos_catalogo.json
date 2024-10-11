@@ -7,7 +7,8 @@
             "info1": "5.5%",
             "dato2": "IBU:",
             "info2": "45",
-            "img": "../assets/jarra-IPA.jpg"
+            "img": "../assets/jarra-IPA.jpg",
+            "TxtAlt": "jarra IPA"
         },
         {
             "encabezado":"Golden",
@@ -16,7 +17,8 @@
             "info1": "4%",
             "dato2": "IBU:",
             "info2": "20",
-            "img": "../assets/jarra-golden.jpg"
+            "img": "../assets/jarra-golden.jpg",
+            "TxtAlt": "jarra GOLDEN"
         },
         {
             "encabezado":"Porter",
@@ -25,7 +27,8 @@
             "info1": "4.5%",
             "dato2": "IBU:",
             "info2": "30",
-            "img": "../assets/jarra-porter.jpg"
+            "img": "../assets/jarra-porter.jpg",
+            "TxtAlt": "jarra PORTER"
         },
         {
             "encabezado":"Scottish",
@@ -34,6 +37,7 @@
             "info1": "4.3%",
             "dato2": "IBU:",
             "info2": "25",
-            "img": "../assets/jarra-scottish.jpg"
+            "img": "../assets/jarra-scottish.jpg",
+            "TxtAlt": "jarra SCOTTISH"
         }]
 }

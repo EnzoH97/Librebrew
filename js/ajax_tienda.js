@@ -16,7 +16,7 @@ function GetProductos() {
                 json[p].forEach((el) => {
                     $lista.innerHTML +=`
                     <div class="card">
-                    <div class="card-img"><img src=${el.imagen} alt=""></div>
+                    <div class="card-img"><img src=${el.imagen} alt="${el.AltTexto}"></div>
                     <div class="card-info">
                         <p class="text-title">${el.titulo} </p>
                         <p class="text-body">${el.descripcion}</p>

@@ -1,0 +1,20 @@
+{
+    "servicio":[
+        {
+            "Titulo":"Descubre una nueva forma de disfrutar tus eventos con nuestro Beertruck",
+            "Descripcion":"Brindamos una experiencia única donde la cerveza de calidad se encuentra con la comodidad y el estilo. Desde bodas elegantes hasta fiestas vibrantes, nuestro Beertruck es la opción perfecta para llevar el mejor sabor directamente a tu celebración.",
+            "Foto": "../assets/BeerTruckatNight.jpg",
+            "AltTxt": "BeerTruck",
+            "TxtSpan":"Contactanos para más"
+
+        },
+        {
+            "Titulo":"Nuestra chopera es perfecta para personalizar tu evento con estilo y sabor",
+            "Descripcion":"Desde reuniones íntimas hasta festivales multitudinarios, transformamos tu evento en una experiencia sensorial única. Con nuestra chopera, cada sorbo celebra el buen gusto y la calidad, asegurando que cada invitado recuerde este día especial con una sonrisa y una cerveza en la mano.",
+            "Foto": "../assets/chopera.jpg",
+            "AltTxt": "Chopera",
+            "TxtSpan":"Contactanos para más"
+
+        }
+    ]
+}

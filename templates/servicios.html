@@ -23,45 +23,11 @@
         </div>
     </header> 
     <main style="background-color:#001111;">
-        <div class="contendores">
-            <div class="card" style="border: 0;">
-                <div class="image"><img src="../assets/BeerTruckatNight.jpg" alt="BeerTruck"></div>
-                <div class="content">
-                    <a href="contacto.html">
-                        <span class="title">
-                            Descubre una nueva forma de disfrutar tus eventos con nuestro Beertruck
-                        </span>
-                    </a>
-                    <p class="desc">
-                        Brindamos una experiencia única donde la cerveza de calidad se encuentra con la comodidad y el estilo. Desde bodas elegantes hasta fiestas vibrantes, nuestro Beertruck es la opción perfecta para llevar el mejor sabor directamente a tu celebración.
-                    </p>
-                    <a class="action" href="contacto.html">
-                        Contactanos para más
-                        <span aria-hidden="true">
-                            →
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="card" style="border: 0;">
-                <div class="image"><img src="../assets/chopera.jpg" alt="Chopera"></div>
-                <div class="content">
-                    <a href="contacto.html">
-                        <span class="title">
-                            Nuestra chopera es perfecta para personalizar tu evento con estilo y sabor
-                        </span>
-                    </a>
-                    <p class="desc">
-                        Desde reuniones íntimas hasta festivales multitudinarios, transformamos tu evento en una experiencia sensorial única. Con nuestra chopera, cada sorbo celebra el buen gusto y la calidad, asegurando que cada invitado recuerde este día especial con una sonrisa y una cerveza en la mano.
-                    </p>
-                    <a class="action" href="contacto.html">
-                    Contactanos para más
-                    <span aria-hidden="true">
-                        →
-                    </span>
-                    </a>
-                </div>
-            </div>
+        <div class="contendores" id="lista_servicios">
+            <script src="../js/ajax_servicios.js"></script>
+            <script>
+                GetServicios()
+            </script>
         </div>
     </main>
 <footer class="caja-footer" > 

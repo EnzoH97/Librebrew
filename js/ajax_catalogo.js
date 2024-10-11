@@ -17,7 +17,7 @@ function GetEstilos() {
             estilo.forEach((el) => {
                 $lista.innerHTML +=`
                     <div class="card">
-                <div class="card-image"> <img src="${el.img}" alt=""></div>
+                <div class="card-image"> <img src="${el.img}" alt="${el.TxtAlt}"></div>
                 <div class="category">${el.encabezado} </div>
                 <div class="heading"> 
                     <p>${el.reseña}</p>
