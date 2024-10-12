@@ -63,7 +63,7 @@ function FiltroProductos() {
     var cat = document.getElementById('categorias').value;
 
     if (hasta == "") {
-        hasta = 9999999999999
+        hasta = 999999
     }
     if (desde == "") {
         desde = 0
@@ -112,12 +112,13 @@ function FiltroProductos() {
                 }
 
             } else {
+
                 json[cat].forEach((el) => {
                     if (desde <= el.precio || hasta >= el.precio) {
                         console.log(el.precio)
                         $lista.innerHTML +=`
                         <div class="card">
-                        <div class="card-img"><img src=${el.imagen} alt=""></div>
+                        <div class="card-img"><img src="${el.imagen}" alt=""></div>
                         <div class="card-info">
                             <p class="text-title">${el.titulo} </p>
                             <p class="text-body">${el.descripcion}</p>
@@ -138,7 +139,7 @@ function FiltroProductos() {
         } else {
             $lista.innerHTML +=`
             <div class="card">
-            <div class="card-img"><img src= alt=""></div>
+            <div class="card-img"><img src="" alt=""></div>
             <div class="card-info">
                 <p class="text-title">No se encuentran datos</p>
                 <p class="text-body">${xhr.status}</p>
