@@ -25,7 +25,7 @@ function GetProductos() {
                         <span class="text-title">${el.precio}</span>
                         <div class="card-button">
                             <svg class="svg-icon" viewBox="0 0 20 20">
-                                ${el.carrito}
+                                ${el.carrito.paths.map(path => `<path d="${path}"></path>`).join('')}
                             </svg>
                         </div>
                     </div>        
@@ -56,6 +56,8 @@ function GetProductos() {
     xhr.open("GET",'../data/datos.json');
     xhr.send();
 }
+
+
 
 function FiltroProductos() {
     var desde = parseInt(document.getElementById('desde').value);
@@ -101,7 +103,7 @@ function FiltroProductos() {
                                 <span class="text-title">${el.precio}</span>
                                 <div class="card-button">
                                     <svg class="svg-icon" viewBox="0 0 20 20">
-                                        ${el.carrito}
+                                    ${el.carrito.paths.map(path => `<path d="${path}"></path>`).join('')}
                                     </svg>
                                 </div>
                             </div>        
@@ -127,7 +129,7 @@ function FiltroProductos() {
                             <span class="text-title">${el.precio}</span>
                             <div class="card-button">
                                 <svg class="svg-icon" viewBox="0 0 20 20">
-                                    ${el.carrito}
+                                ${el.carrito.paths.map(path => `<path d="${path}"></path>`).join('')}
                                 </svg>
                             </div>
                         </div>        
