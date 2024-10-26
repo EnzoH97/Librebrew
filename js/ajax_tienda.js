@@ -53,22 +53,21 @@ function GetProductos() {
                 
     });
 
-    xhr.open("GET",'../data/datos.json');
+    xhr.open("GET",'../data/datos_tienda.json');
     xhr.send();
 }
-
-
 
 function FiltroProductos() {
     var desde = parseInt(document.getElementById('desde').value);
     var hasta = parseInt(document.getElementById('hasta').value);
     var cat = document.getElementById('categorias').value;
 
-    if (hasta == "") {
-        hasta = 999999
-    }
     if (desde == "") {
         desde = 0
+    }
+
+    if (hasta == "") {
+        hasta = 999999999
     }
 
     const xhr = new XMLHttpRequest(),
@@ -80,17 +79,15 @@ function FiltroProductos() {
 
         if (xhr.status >= 200 && xhr.status < 300) {
             console.log('conectado');
-
             
             let json = JSON.parse(xhr.responseText);
 
             $lista.innerHTML = ``;
 
             if (cat == "") { 
-
                 for (const p in json) {
                     json[p].forEach((el) => {
-                        if (desde <= el.precio || hasta >= el.precio) {
+                        if (desde <= el.precio && hasta >= el.precio) {
                             console.log(el.precio)
                             $lista.innerHTML +=`
                             <div class="card">
@@ -116,7 +113,7 @@ function FiltroProductos() {
             } else {
 
                 json[cat].forEach((el) => {
-                    if (desde <= el.precio || hasta >= el.precio) {
+                    if (desde <= el.precio && hasta >= el.precio) {
                         console.log(el.precio)
                         $lista.innerHTML +=`
                         <div class="card">
@@ -157,7 +154,7 @@ function FiltroProductos() {
         }
     });
 
-    xhr.open("GET", 'data/datos.json');
+    xhr.open("GET", '../data/datos_tienda.json');
 
     xhr.send();
 }
