@@ -1,48 +1,64 @@
 
 const expresiones = {
-    nombre: /([A-Za-z])\w+/,
-    numeros: /([0-9])\w+/,
-    Email: 
+    nombre: /^[A-Za-z\s]+$/, 
+    numeros: /^[0-9]+$/, 
+    email: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, 
 }
-let formulario = document.getElementById('formulario')
+let formulario =document.getElementById('formulario')
 let inputs = document.querySelectorAll('#formulario input')
+
+const mostrarError = (input, mensaje) => {
+    const errorDiv = document.getElementById(`error-${input.name}`);
+    errorDiv.textContent = mensaje;
+    errorDiv.style.display = 'block'; 
+}
+
+const ocultarError = (input) => {
+    const errorDiv = document.getElementById(`error-${input.name}`);
+    errorDiv.textContent = ''; 
+    errorDiv.style.display = 'none'; 
+}
+
 
 
 const validarFormulario = (e) => {
+    let input = e.target;
     switch (e.target.name) {
-        case 'Nombre':
-            let ok = expresiones.nombre.test(e.target.value);
-            console.log(ok)
-            if(ok == true){
-                console.log('correcto')
-                document.getElementsByName('Nombre').classList.remove('div-form-incorrect');
-                document.getElementsByName('Nombre').classList.add('div-form-correct');
+        case 'nombre':
+            if (expresiones.nombre.test(input.value)) {
+                input.classList.remove('div-form-incorrect');
+                input.classList.add('div-form-correct');
+                ocultarError(input);
             } else {
-                console.log('incorrecto')
-                document.getElementsByName('Nombre').classList.remove('div-form-correct');
-                document.getElementsByName('Nombre').classList.add('div-form-incorrect');
+                input.classList.remove('div-form-correct');
+                input.classList.add('div-form-incorrect');
+                mostrarError(input, 'Nombre inválido. Solo se permiten letras y espacios.');
             }
-            break
-        case 'Telefono':
-            if(expresiones.numero.test(e.target.value)){
-                document.getElementsByName('Telefono').classList.remove('div-form-incorrect');
-                document.getElementsByName('Telefono').classList.add('div-form-correct');
+            break;
+
+
+        case 'telefono':
+            if (expresiones.numeros.test(input.value)) {
+                input.classList.remove('div-form-incorrect');
+                input.classList.add('div-form-correct');
+                ocultarError(input);
             } else {
-                document.getElementsByName('Telefono').classList.add('div-form-incorrect');
-                document.getElementsByName('Telefono').classList.remove('div-form-correct');
+                input.classList.remove('div-form-correct');
+                input.classList.add('div-form-incorrect');
+                mostrarError(input, 'Teléfono inválido. Solo se permiten números.');
             }
-            break
+            break;
         case 'Email':
-            if(expresiones.numero.test(e.target.value)){
-                document.getElementsByName('Email').classList.remove('div-form-incorrect');
-                document.getElementsByName('Email').classList.add('div-form-correct');
+            if (expresiones.email.test(input.value)) {
+                input.classList.remove('div-form-incorrect');
+                input.classList.add('div-form-correct');
+                ocultarError(input);
             } else {
-                document.getElementsByName('Email').classList.add('div-form-incorrect');
-                document.getElementsByName('Email').classList.remove('div-form-correct');
+                input.classList.remove('div-form-correct');
+                input.classList.add('div-form-incorrect');
+                mostrarError(input, 'Email inválido. Asegúrate de usar un formato correcto.');
             }
-            break
-        default:
-            break
+            break;
     }
 }
 

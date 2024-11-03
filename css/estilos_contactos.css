@@ -87,15 +87,14 @@ input::placeholder, textarea::placeholder{
     background-color:rgb(0, 46, 0);
 }
 
-.grupo_input-correct{
-    border: 2px solid green;
-    color: green;
+#error-nombre,
+#error-tel,
+#error-email {
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
 }
-.grupo_input-incorrect{
-    border: 2px solid red;
-    color: red;
-    
-}
+
 
 /*estilos footer*/
 .caja-footer{
