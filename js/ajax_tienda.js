@@ -62,12 +62,12 @@ function FiltroProductos() {
     var hasta = parseInt(document.getElementById('hasta').value);
     var cat = document.getElementById('categorias').value;
 
-    if (desde == "") {
+    if (isNaN(desde)) {
         desde = 0
     }
 
-    if (hasta == "") {
-        hasta = 999999999
+    if (isNaN(hasta)) {
+        hasta = 99999999999
     }
 
     const xhr = new XMLHttpRequest(),

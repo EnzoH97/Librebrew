@@ -32,7 +32,7 @@ const validarFormulario = (e) => {
             } else {
                 input.classList.remove('div-form-correct');
                 input.classList.add('div-form-incorrect');
-                mostrarError(input, 'Nombre inválido. Solo se permiten letras y espacios.');
+                mostrarError(input, '¡ATENCIÓN! Solo letras y espacios permitidos.');
             }
             break;
 
@@ -45,7 +45,7 @@ const validarFormulario = (e) => {
             } else {
                 input.classList.remove('div-form-correct');
                 input.classList.add('div-form-incorrect');
-                mostrarError(input, 'Teléfono inválido. Solo se permiten números.');
+                mostrarError(input, '¡ATENCIÓN!. Solo se permiten números.');
             }
             break;
         case 'Email':
@@ -56,7 +56,7 @@ const validarFormulario = (e) => {
             } else {
                 input.classList.remove('div-form-correct');
                 input.classList.add('div-form-incorrect');
-                mostrarError(input, 'Email inválido. Asegúrate de usar un formato correcto.');
+                mostrarError(input, 'Email inválido: use el formato correcto');
             }
             break;
     }

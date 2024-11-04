@@ -88,11 +88,11 @@ input::placeholder, textarea::placeholder{
 }
 
 #error-nombre,
-#error-tel,
-#error-email {
+#error-telefono,
+#error-Email {
     margin-top: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
 }
 
 
