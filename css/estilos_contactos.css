@@ -94,6 +94,20 @@ input::placeholder, textarea::placeholder{
     font-family: 'Franklin Gothic Medium';
     font-size: medium;
 }
+.error-message2{
+    color:red;
+    display: none;
+}
+#error-nombre2,
+#error-telefono2,
+#error-Email2,
+#error-textarea{
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    display: none,
+}
+
 
 
 /*estilos footer*/

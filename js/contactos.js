@@ -65,3 +65,47 @@ const validarFormulario = (e) => {
 inputs.forEach((input)=>{
     input.addEventListener('keyup',validarFormulario)
 });
+
+
+const validarCamposVacios = () => {
+    let camposValidos = true;
+    inputs.forEach((input) => {
+        if (input.value.trim() === "") {
+            mostrarError(input, "Este campo no puede estar vacío.");
+            input.classList.add("div-form-incorrect");
+            camposValidos = false;
+        } else {
+            ocultarError(input);
+            input.classList.add("div-form-correct");
+        }
+    });
+
+    const mensaje = document.getElementById("mensaje");
+    if (mensaje.value.trim() === "") {
+        mostrarError({ name: "textarea" }, "Este campo no puede estar vacío.");
+        mensaje.classList.add("div-form-incorrect");
+        camposValidos = false;
+    } else {
+        ocultarError({ name: "textarea" });
+        mensaje.classList.add("div-form-correct");
+    }
+
+    return camposValidos;
+};
+
+formulario.addEventListener("submit", (e) => {
+    if (!validarCamposVacios()) {
+        e.preventDefault();
+    }
+});
+
+formulario.addEventListener("submit", (e) => {
+    e.preventDefault(); // Evita que la página se recarge
+
+    if (validarCamposVacios()) {
+        
+        console.log("Formulario validado y listo para enviar.");
+    } else {
+        console.log("El formulario contiene errores.");
+    }
+});
