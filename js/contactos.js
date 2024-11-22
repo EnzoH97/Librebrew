@@ -98,14 +98,3 @@ formulario.addEventListener("submit", (e) => {
         e.preventDefault();
     }
 });
-
-formulario.addEventListener("submit", (e) => {
-    e.preventDefault(); // Evita que la página se recarge
-
-    if (validarCamposVacios()) {
-        
-        console.log("Formulario validado y listo para enviar.");
-    } else {
-        console.log("El formulario contiene errores.");
-    }
-});
