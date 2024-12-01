@@ -95,13 +95,23 @@ input::placeholder, textarea::placeholder{
 
 #error-nombre,
 #error-telefono,
-#error-Email {
+#error-email,
+#error-mensaje {
     margin-top: 5px;
     font-family: 'Franklin Gothic Medium';
     font-size: medium;
 }
 
+/*alerta*/
+.div-form-incorrect {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
 
+.div-form-correct {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+}
 
 /*estilos footer*/
 .caja-footer{
