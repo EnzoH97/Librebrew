@@ -7,7 +7,7 @@ const expresiones = {
 
 
 let formulario =document.getElementById('formulario')
-let inputs = document.querySelectorAll('#formulario input')
+const inputs = document.querySelectorAll('#formulario input:not([type="submit"]), #formulario textarea');
 
 const mostrarError = (input, mensaje) => {
     if (!input.name) {
