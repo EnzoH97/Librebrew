@@ -186,7 +186,6 @@ svg {
     }
     .redirecciones{
         position: relative;
-        right: 70px;
     }
     .logo{
         position: relative;
@@ -197,6 +196,22 @@ svg {
         width: 200px;
     }
     
+    .filtro_busqueda{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    #categorias{
+        word-wrap: normal;
+        width: 50%;
+        margin-left: 20px;
+    }
+    #desde,
+    #hasta{
+        width: 50%;
+
+    }
     .card{
         width: 200px;
         height: 300px;
