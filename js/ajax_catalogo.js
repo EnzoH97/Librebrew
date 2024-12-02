@@ -23,6 +23,7 @@ function GetEstilos() {
                     <p>${el.reseña}</p>
                     <p><strong>${el.dato1}</strong> ${el.info1}</p>
                     <p><strong>${el.dato2}</strong> ${el.info2} </p>
+                    <p><strong>${el.dato3}</strong> ${el.info3} </p>
                 </div>
                 </div>`
             });
@@ -34,6 +35,7 @@ function GetEstilos() {
                 <div class="heading"> 
                     <p>${xhr.status}</p>
                     <p><strong></strong>${xhr.statusText}</p>
+                    <p><strong></strong></p>
                     <p><strong></strong></p>
                 </div>
                 </div>`
